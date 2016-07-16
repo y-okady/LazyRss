@@ -193,6 +193,7 @@
 				TargetAttributes = {
 					5A702CEF1D39FDB400384454 = {
 						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = XNE42CGF8A;
 					};
 					5A702D031D39FDB400384454 = {
 						CreatedOnToolsVersion = 7.3;
@@ -399,10 +400,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = LazyRss/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = net.okady.LazyRss;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -410,10 +415,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = LazyRss/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = net.okady.LazyRss;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -482,6 +491,7 @@
 				5A702D1A1D39FDB400384454 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5A702D1B1D39FDB400384454 /* Build configuration list for PBXNativeTarget "LazyRssTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +500,7 @@
 				5A702D1D1D39FDB400384454 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5A702D1E1D39FDB400384454 /* Build configuration list for PBXNativeTarget "LazyRssUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +509,7 @@
 				5A702D201D39FDB400384454 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
